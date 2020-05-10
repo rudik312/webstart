@@ -8,7 +8,8 @@
         "../sass/blocks/_interface.sass",
         "../sass/blocks/_navbar.sass",
         "../sass/blocks/_hero.sass",
-        "../sass/blocks/_offer.sass"  
+        "../sass/blocks/_offer.sass",
+        "../sass/blocks/_modal.sass"  
     ],
     "names": [],
     "file": "style.css"
