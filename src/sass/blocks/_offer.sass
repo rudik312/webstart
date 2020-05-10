@@ -30,6 +30,19 @@
     &__button
         width: 100%
         min-height: 70px
+        margin-bottom: 31px
+        +bold
+    &__manager
+        display: flex
+        justify-content: space-between
+        align-items: center
+        font-size: 15px
+        line-height: 24px
+    &__tel
+        display: block
+        color: $text-color
+        text-decoration: none
+        +bold
 @media screen and ( max-width: 1200px )
     .offer
         background-size: cover
@@ -44,5 +57,11 @@
         &-block
             width: 100%
             padding-right: 0
-
-
+        &__manager
+            display: flex
+            align-items: flex-start
+            flex-wrap: wrap
+@media screen and ( max-width: 460px )
+    .offer
+        &__contact
+            margin-top: 18px
